@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+<div id="myModal" class = "modal">
+    <div class="modal-content">
+        You Name
+        <input type="text" id="Name">
+        You NickName
+        <input type="text" id="NickName">
+        <input type="submit" id = "SubmitName" value="Send">
+    </div>
+</div>
+
+
+<div class="wrapper">
+    <div class="container">
+
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="flex-container">
+
+                <aside class="user sidebar">
+                    <ul id="user__list">
+                    </ul>
+                </aside>
+                <div class="board">
+                    <ul id="Content__list">
+                    </ul>
+                </div>
+                <div class="sendbox">
+                    <div id="sendbox__form">
+                        <input type="text" id="user__typing" readonly>
+                        <input type="text" id="sendbox__input" placeholder="Message">
+                        <input type="button" id="sendbox__btn" class="btn " value="send">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+
+
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+<script src="/socket.io/socket.io.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
