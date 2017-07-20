@@ -55,7 +55,7 @@ body {
 
 .sidebar {
     width: 300px;
-    height: 600px;
+    height: 550px;
     display: flex;
     flex:0 0 320px;
     background: #303F9F;
@@ -70,7 +70,6 @@ body {
     list-style: none;
 }
 .board{
-    height: 400px;
     flex: 0 0 680px;
     flex-direction: column;
     justify-content: flex-start;
@@ -114,4 +113,7 @@ body {
 }
 .bg {
     color: red;
+}
+.welcom{
+    text-align: center;
 }
